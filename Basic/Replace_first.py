@@ -17,5 +17,4 @@ def Replace_first(mylist: list):
 
         # Now, delete the first element
         del mylist[0]
-        return mylist
-
+    return mylist
