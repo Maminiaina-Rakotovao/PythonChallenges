@@ -15,6 +15,4 @@ def split_pairs(text):
         for i in range(2,len(text)+1,2):
             result.append(text[j:i])
             j = j + 2
-    print(result)
-
-split_pairs('boiwdrfou')
+    return result
