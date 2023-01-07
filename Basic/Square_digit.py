@@ -7,6 +7,4 @@ def Square_digit(num):
     for i in str(num):
         s = int(i)**2
         result.append(str(s))
-    print(''.join(result))
-
-Square_digit(9119)
+    return ''.join(result)
