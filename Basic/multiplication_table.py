@@ -10,5 +10,4 @@ def multi_table(number):
     del list[-1]
     del final_list[-1]
     list.append(''.join(final_list))
-    print(list)
-multi_table(5)
+    return list
