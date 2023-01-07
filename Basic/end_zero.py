@@ -12,5 +12,5 @@ def end_zeros(value):
                 i = i + 1
             print(i-1)
 enter_number = input('Enter a number: ')
-#enter_number= str(enter_number)
+
 end_zeros(enter_number)
