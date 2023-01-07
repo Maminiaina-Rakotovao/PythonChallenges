@@ -6,8 +6,6 @@ def String_ends_with(string,ending):
 
     print(string[len(string)-len(ending):])
     if string[len(string)-len(ending):]==ending:
-        print(True)
+        return True
     else:
-        print(False)
-
-String_ends_with('samurai', 'ai')
+        return False
