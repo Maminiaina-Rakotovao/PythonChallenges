@@ -7,6 +7,4 @@ def merge_arrays(arr1, arr2):
         result.add(i)
     final_result = list(result)
     final_result.sort()
-    print(final_result,type(final_result))
-
-merge_arrays([1, 3, -5, 7, 9, 11, 12],[1, 2, 3, 4, 5, 10, 12])
+    return final_result
