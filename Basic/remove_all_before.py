@@ -14,6 +14,3 @@ def Removeall_before(items,border):
 			del items[0];
 		return items
 
-x = Removeall_before([1,2,3,5,6,2,4,90,'g'],2)
-print(x)
-
