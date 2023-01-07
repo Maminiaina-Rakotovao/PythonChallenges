@@ -11,5 +11,4 @@ def count_by(x,n):
     while len(list) != n:
         list.append(list[i]+x)
         i = i + 1
-    print(list)
-count_by(5,9)
+    return list
