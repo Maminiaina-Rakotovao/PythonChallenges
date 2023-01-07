@@ -17,6 +17,5 @@ def Replace_first(mylist: list):
 
         # Now, delete the first element
         del mylist[0]
-        print(mylist)
+        return mylist
 
-Replace_first(['3',2,4,90])
