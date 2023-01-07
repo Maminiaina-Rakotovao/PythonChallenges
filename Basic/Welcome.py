@@ -18,7 +18,5 @@ def greet(language):
         'swedish': 'Valkommen',
         'welsh': 'Croeso'
         }
-    print(mydict[language])
-
-greet('french')
+    return mydict[language]
     
