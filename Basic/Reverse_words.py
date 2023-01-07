@@ -10,6 +10,6 @@ def Reverse_words(text):
         text_reverse=i[::-1]
         result.append(text_reverse)
 
-    print(' '.join(result))
+    return ' '.join(result)
 
-Reverse_words("double  spaces!")
+
