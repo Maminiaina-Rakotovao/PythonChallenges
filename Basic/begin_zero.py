@@ -12,7 +12,4 @@ def begin_zero(value):
             i = i + 1
             if i == len(value):
                 break
-        print(i)
-
-enter_number = input('Enter a number: ')
-begin_zero(enter_number)
+        return i
