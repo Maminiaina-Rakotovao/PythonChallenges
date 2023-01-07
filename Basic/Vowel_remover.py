@@ -6,6 +6,5 @@ def shortcut(s):
     for i in vowel:
         while i in mylist:
             mylist.remove(i)
-    print(''.join(mylist))
+    return ''.join(mylist)
 
-shortcut('gouyuodbye')
