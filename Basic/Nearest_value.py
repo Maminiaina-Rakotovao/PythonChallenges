@@ -27,5 +27,4 @@ def Nearest_value(my_set:set ,x:int):
         else:
             print(first_item)
 
-Nearest_value({5,}, 7)
 
