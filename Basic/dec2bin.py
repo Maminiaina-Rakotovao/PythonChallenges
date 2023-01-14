@@ -22,7 +22,7 @@ def main():
 
     result = ''.join(rest)
 
-    print('({})10 = ({})2'.format(number,result))
+    return '({})10 = ({})2'.format(number,result)
 
 # Call the main function
 main()
