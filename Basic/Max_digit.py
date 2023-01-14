@@ -9,10 +9,7 @@ digit_list = []
 
 # Create the maxdigit function
 def Max_digit(number):
-    #number = str(number)
     for i in number:
         digit_list.append(int(i))
-    print(max(digit_list))
+    retrun max(digit_list)
 
-n = input('Enter: ')
-Max_digit(n)
