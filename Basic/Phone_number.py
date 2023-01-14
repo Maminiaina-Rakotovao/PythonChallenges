@@ -3,7 +3,7 @@
 
 # Create the function
 def Phone_number(n):
-    #p1=''.join(str(n[:3]))
+   
     string = ''.join(str(i) for i in n)
     p1 = '('+string[:3]+')'
     p2 = string[3:6]+'-'+string[6:]
