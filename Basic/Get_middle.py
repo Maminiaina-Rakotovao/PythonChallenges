@@ -10,8 +10,8 @@ def Get_middle(text: str):
     # get the length of the text
     get_length = len(text)
     if get_length%2 == 0:
-        print(text[int(get_length/2)-1:int(get_length/2)+1])
+        return text[int(get_length/2)-1:int(get_length/2)+1]
     else:
-        print(text[int(get_length/2)])
+        return text[int(get_length/2)]
 
-Get_middle('t')
+
