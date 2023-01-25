@@ -3,7 +3,7 @@
 
 
 
-# Variable to store items
+# Global variable to store items
 cart = []
 
 # Create a function to add items to cart
