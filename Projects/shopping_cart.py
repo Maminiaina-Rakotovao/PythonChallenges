@@ -3,13 +3,14 @@
 
 
 
-# Global list variable
+# Variable to store items
 cart = []
 
 # Create a function to add items to cart
 def Additem(item):
     cart.append(item)
     print('{} has been added.'.format(item))
+    
     
 # Create a function to remove items from cart
 def Removeitem(item):
@@ -18,6 +19,7 @@ def Removeitem(item):
         print('{} has been removed'.format(item))
     except:
         print('Sorry could not remove that item')
+    
         
 # Create a function to show items in the cart
 def Showcart():
@@ -28,11 +30,13 @@ def Showcart():
     else:
         print('Cart is empty.')
     
+    
 # Create function to clear items from cart
 def Clearitem():
     cart.clear()
     print('Cart is empty.')
     
+
 
 # Create the main function until user quits
 def main():
