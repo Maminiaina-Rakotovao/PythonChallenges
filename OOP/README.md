@@ -1,6 +1,6 @@
 All the codes and exercises used in this materials are from the book:
 
-Python Projects for Beginners A Ten-Week Bootcamp Approach to Python Programming
+"Python Projects for Beginners A Ten-Week Bootcamp Approach to Python Programming"
 
 By Connor P. Milliken
 
