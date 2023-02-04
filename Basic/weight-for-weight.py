@@ -13,7 +13,6 @@ def order_weight(strng):
 
 def summ(x):
     sum = 0
-    for number in x:
-        for digit in number:
-            sum = sum + int(digit)
+    for number in x:        
+    	sum = sum + int(number)
     return sum
