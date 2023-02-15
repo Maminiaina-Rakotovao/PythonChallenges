@@ -16,8 +16,5 @@ def matrix_elements_sum(matrix):
     s = 0
     for j in range(c):
         for i in range(r):
-            if str(matrix[i][j]).isnumeric():
-                s = s + matrix[i][j]
-            else:
-                continue
+			s = s + matrix[i][j]
     return s
