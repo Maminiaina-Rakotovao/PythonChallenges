@@ -3,7 +3,4 @@
 
 # Create the function
 def String_ends_with(string,ending):
-    if string[len(string)-len(ending):]==ending:
-        return True
-    else:
-        return False
+    return True if string[len(string)-len(ending):]==ending else False
