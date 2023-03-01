@@ -1,8 +1,13 @@
-# The first element of a given list should become the last one
-# input --> output
-# [1,9,'c',4] --> [9,'c',4,1]
-# [1] --> [1]
-# [] --> =[]
+"""
+
+The first element of a given list should become the last one
+input --> output
+[1,9,'c',4] --> [9,'c',4,1]
+[1] --> [1]
+[] --> =[]
+
+"""
+
 
 # Create the replacefirst function
 def Replace_first(mylist: list):

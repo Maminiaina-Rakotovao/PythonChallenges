@@ -1,5 +1,11 @@
-# Ex: "This is an example!" ==> "sihT si na !elpmaxe"
-# Ex: "double  spaces"      ==> "elbuod  secaps"
+"""
+
+Ex: "This is an example!" ==> "sihT si na !elpmaxe"
+Ex: "double  spaces"      ==> "elbuod  secaps"
+
+
+"""
+
 
 # Create the function
 def Reverse_words(text):
