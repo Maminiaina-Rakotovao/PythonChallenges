@@ -1,7 +1,11 @@
-# This program will remove from the list all items before the given one.
-# Ex: input --> output
-# [[1,2,3,4,5,6],3] --> [3,4,5,6]   (remove all items before 3)
-# [[1,2,3,4,5,6],5] --> [5,6]   (remove all items before 5)
+"""
+
+This program will remove from the list all items before the given one.
+Ex: input --> output
+[[1,2,3,4,5,6],3] --> [3,4,5,6]   (remove all items before 3)
+[[1,2,3,4,5,6],5] --> [5,6]   (remove all items before 5)
+
+"""
 
 
 # Create the function

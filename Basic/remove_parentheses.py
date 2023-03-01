@@ -1,20 +1,25 @@
-# Remove the parentheses
+"""
 
-# In this kata you are given a string for example:
+Remove the parentheses
 
-# "example(unwanted thing)example"
+In this kata you are given a string for example:
 
-# Your task is to remove everything inside the parentheses as well as the parentheses themselves.
+"example(unwanted thing)example"
 
-# The example above would return:
+Your task is to remove everything inside the parentheses as well as the parentheses themselves.
 
-# "exampleexample"
+The example above would return:
 
-# "example(unwanted thing)example" --> "exampleexample"
+"exampleexample"
 
-# hello example (words(more words) here) something" --> "hello example  something"
+"example(unwanted thing)example" --> "exampleexample"
 
-# a(b(c)) -> a
+hello example (words(more words) here) something" --> "hello example  something"
+
+a(b(c)) -> a
+
+"""
+
 
 def removeparentheses(s):
     counter_parentheses = 0
