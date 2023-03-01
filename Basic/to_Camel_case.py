@@ -1,5 +1,10 @@
-# "the-stealth-warrior" gets converted to "theStealthWarrior"
-# "The_Stealth_Warrior" gets converted to "TheStealthWarrior"
+"""
+
+"the-stealth-warrior" gets converted to "theStealthWarrior"
+"The_Stealth_Warrior" gets converted to "TheStealthWarrior"
+
+
+"""
 
 
 def to_camel_case(text):
