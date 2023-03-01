@@ -1,9 +1,13 @@
-# This program will return the middle character of a word. If the word's lenght is odd, the program will return the middle character.
-# If the word's length is even, the program will return the twi middle characters.
-# Ex:
-# test --> es
-# testing --> t
-# A --> A
+"""
+
+This program will return the middle character of a word. If the word's lenght is odd, the program will return the middle character.
+If the word's length is even, the program will return the twi middle characters.
+Ex:
+test --> es
+testing --> t
+A --> A
+
+"""
 
 # Create the function
 def Get_middle(text: str):
