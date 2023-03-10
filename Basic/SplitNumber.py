@@ -16,3 +16,5 @@ def split_pairs(text):
             result.append(text[j:i])
             j = j + 2
     return result
+
+print(split_pairs('abcdef'))
