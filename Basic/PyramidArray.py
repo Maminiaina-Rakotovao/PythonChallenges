@@ -10,8 +10,6 @@ pyramid(3) => [ [1], [1, 1], [1, 1, 1] ]
 """
 
 
-def pyramid(number):
-    mydict= dict()
-    for i in range(1,number+1):
-        mydict[i] = [1]*i
-    return list(mydict.values())
+def pyramid(n):
+    arr = [1]
+    return [arr*i for i in range(1,n+1)]
