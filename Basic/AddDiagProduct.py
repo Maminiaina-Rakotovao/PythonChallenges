@@ -61,36 +61,5 @@ def diagonals(matrix):
         for j in i:
             r_prod = r_prod*j
         r_Result.append(r_prod)
-    print(sum(l_Result) - sum(r_Result))
+    return sum(l_Result) - sum(r_Result)
 
-mat = [[1,2,3,4,5,6],
-        [7,8,9,10,11,12],
-        [13,14,15,16,17,18],
-        [19,20,21,22,23,24],
-        [25,26,27,28,29,30]]
-
-diagonals(mat)
-
-
-
-"""
-****Solution
-
-def diagonals(matrix):
-    if len(matrix) == 1: return matrix
-    
-    ds = []
-
-    for y in range(0, len(matrix)):
-        ds.append([matrix[y + s][s] for s in range(0, len(matrix) - y)])
-        ds.append([matrix[y + s][len(matrix) - s - 1] for s in range(0, len(matrix) - y)])
-
-    for x in range(1, len(matrix)):
-        ds.append([matrix[s][x + s] for s in range(0, len(matrix) - x)])
-        ds.append([matrix[s][len(matrix) - x - s - 1] for s in range(0, len(matrix) - x)])
-
-    return ds
-
-
-
-"""
