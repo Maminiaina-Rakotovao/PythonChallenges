@@ -47,8 +47,6 @@ def diagonals(matrix):
     for i in r_result:
         if len(i)==0:
             r_result.remove(i)
-    if l_result == r_result:
-        return l_result
 
     l_Result = []
     for i in l_result:
